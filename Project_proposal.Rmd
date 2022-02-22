@@ -1,0 +1,41 @@
+---
+title: "TFM Project Proposal"
+author: "Alfonso Penarroya"
+output:
+  pdf_document:
+    number_sections: true
+    toc: false
+date: '`r format(Sys.Date(),"%e de %B, %Y")`'
+bibliography: ["TFM_22_2.bib"]
+biblio-style: "alphadin"
+
+---
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Title
+**Impact of mitotic age on cumulative epigenetic noise.**
+
+# Keywords
+*Epigenetics, DNA methylation, mitotic clock, Epimutation, Epigenetic Noise, Aging*
+
+# Chosen Topic
+It is well known that ageing is associated with the accumulation of both genetic and epigenetic noise, which has a significant impact on the increased risk of developing a large set of pathologies.  Moreover, studies such as that of Tomasetti and Vogelstein [-@Tomasetti2015], demonstrate a strong correlation between the risk of developing tumours in different tissues and replication rate of the stem cell niches of the tissue of origin. However, this apparently trivial correlation has not been demonstrated in relation to epigenetic dysregulation. 
+
+In this project we intend to decipher how the accumulated number of mitoses (extracted from a mitotic clock, like EpiToc2 described by Teschendorff [-@Teschendorff2020]) is directly correlated with the accumulation of epigenetic noise, which may explain increased instability and the risk of appearance of different age-associated pathologies. This is highly relevant in the context ever-aging society and to establish the basic paradigms that explain the accumulation of epigenetic noise in ageing.
+
+# Addressed Problems
+On the one hand, there is the question of whether epigenetic variability (understood as cumulative noise) increases with chronological age or with the mitotic age of the samples. To this purpose, we propose the development of a model explaining the entropy in DNA methylation as a function of, at least, chronological age and mitotic age. For that, we will use 450k methylation data of a set of ~3500 non-pathological tissues. On the other hand, we aim to evaluate the location and nature of the CpGs with increased variability by chronological age or mitotic age of the tissue, also called age-related variably methylated positions (aVMPs) to extract any pattern suggesting possible mechanisms for the longitudinal accumulation of epimutations.
+
+# Objectives
+
+> * Decipher the role of both chronological and mitotic age in the accumulation of epigenetic noise. 
+
+# References
+
